@@ -35,11 +35,11 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-18 09:04:39.718907520 UTC",
     "Validated By": "a1991car",
     "Active": true,
-    "Updated At": "2024-05-17 03:00:07.143585606 UTC",
+    "Updated At": "2024-05-28 02:41:00.621886564 UTC",
     "Active Request ID": "d2ec74d4-e0e7-4aa6-b2ad-f3ac94d35166",
     "On Chain Address": "f1fjdzd3l5fpcjt3z3hwutnblcub7xr6z6q2k2fpq",
     "Multisig Address": "false",
@@ -99,9 +99,16 @@
       "Request Type": "Refill",
       "Created At": "2024-05-17 03:00:07.143597848 UTC",
       "Updated At": "2024-05-17 03:00:07.143599413 UTC",
-      "Active": true,
-      "Allocation Amount": "2PiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "a1991car",
+          "Signing Address": "f14r3uqsnxj22zzzkojqpdh6n62tg75vbx5wl72vi",
+          "Created At": "2024-05-28 02:40:58.773000000 UTC",
+          "Message CID": "bafy2bzacebs6otgqvnpgigpj5i3uetnhu2kw3v5qv2xpf6mlnodaexqkrak5a"
+        }
+      ]
     }
   ]
 }
