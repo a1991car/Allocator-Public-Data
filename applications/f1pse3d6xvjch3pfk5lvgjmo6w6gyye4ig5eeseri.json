@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1pse3d6xvjch3pfk5lvgjmo6w6gyye4ig5eeseri",
+  "Issue Number": "26",
+  "Client": {
+    "Name": "Multi-robot, Multi-Sensor, Multi-Environment Event Dataset (M3ED)",
+    "Region": "United States",
+    "Industry": "IT & Technology Services",
+    "Website": "https://registry.opendata.aws/m3ed/",
+    "Social Media": "https://www.grasp.upenn.edu/people/kostas-daniilidis/",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "M3ED is the first multi-sensor event camera (EC) dataset focused on high-speed dynamic motions in robotics applications. M3ED provides high-quality synchronized data from multiple platforms (car, legged robot, UAV), operating in challenging conditions such as off-road trails, dense forests, and performing aggressive flight maneuvers. M3ED also covers demanding operational scenarios for EC, such as high egomotion and multiple independently moving objects. M3ED includes high-resolution stereo EC (1280×720), grayscale and RGB cameras, a high-quality IMU, a 64-beam LiDAR, and RTK localization.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Multi-robot, Multi-Sensor, Multi-Environment Event Dataset",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Resource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::m3ed-dist\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://m3ed-dist/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "need time",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "342TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-03-18 09:52:21.229124311 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1pse3d6xvjch3pfk5lvgjmo6w6gyye4ig5eeseri",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
